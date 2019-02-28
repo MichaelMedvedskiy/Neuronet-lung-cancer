@@ -254,7 +254,7 @@ if __name__ == '__main__':
 #     first_patient_pixels, spacing = get_pixels_hu(first_patient)
 #     plt.hist(first_patient_pixels.flatten(), bins=80, color='c')
 #     plt.xlabel("Hounsfield Units (HU)")
-#     plt.ylabel("Frequency")
+#     plt.ylabel
 #     plt.show()
     
 #     # Show some slice in the middle
