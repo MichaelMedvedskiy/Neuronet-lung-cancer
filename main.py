@@ -1,6 +1,6 @@
 from preprocessing import full_prep
 from config_submit import config as config_submit
-
+print "Th first entry", config_submit['datapath']
 import torch
 from torch.nn import DataParallel
 from torch.backends import cudnn
