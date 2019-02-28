@@ -243,7 +243,7 @@ def step1_python(case_path):
     return case_pixels, bw1, bw2, spacing
     
 if __name__ == '__main__':
-    INPUT_FOLDER = '/content/drive/My drive/work/DataBowl3/stage1/stage1/'
+    INPUT_FOLDER = '/content/drive/My Drive/work/DataBowl3/stage1/stage1/'
     patients = os.listdir(INPUT_FOLDER)
     patients.sort()
     case_pixels, m1, m2, spacing = step1_python(os.path.join(INPUT_FOLDER,patients[25]))
