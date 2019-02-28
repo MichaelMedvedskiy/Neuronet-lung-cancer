@@ -1,9 +1,9 @@
-config = {'stage1_data_path':'/content3/drive/My Drive/work/DataBowl3/stage1/stage1/',
-          'luna_raw':'/content4/drive/My Drive/work/DataBowl3/luna/raw/',
-          'luna_segment':'/content5/drive/My Drive/work/DataBowl3/luna/seg-lungs-LUNA16/',
+config = {'stage1_data_path':'/content/drive/My Drive/work/DataBowl3/stage1/stage1/',
+          'luna_raw':'/content/drive/My Drive/work/DataBowl3/luna/raw/',
+          'luna_segment':'/content/drive/My Drive/work/DataBowl3/luna/seg-lungs-LUNA16/',
           
-          'luna_data':'/content6/drive/My Drive/work/DataBowl3/luna/allset',
-          'preprocess_result_path':'/content8/drive/My Drive/work/DataBowl3/stage1/preprocess/',
+          'luna_data':'/content/drive/My Drive/work/DataBowl3/luna/allset',
+          'preprocess_result_path':'/content/drive/My Drive/work/DataBowl3/stage1/preprocess/',
           
           'luna_abbr':'./detector/labels/shorter.csv',
           'luna_label':'./deusetector/labels/lunaqualified.csv',
