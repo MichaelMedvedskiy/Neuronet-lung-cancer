@@ -67,6 +67,7 @@ def savenpy(id,filelist,prep_folder,data_path,use_existing=True):
             print(name+' had been done')
             return
     try:
+        print ("the data path:", data_path, " The name: ",name)
         im, m1, m2, spacing = step1_python(os.path.join(data_path,name))
         Mask = m1+m2
         

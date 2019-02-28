@@ -6,7 +6,7 @@ config = {'stage1_data_path':'/content3/drive/My Drive/work/DataBowl3/stage1/sta
           'preprocess_result_path':'/content8/drive/My Drive/work/DataBowl3/stage1/preprocess/',
           
           'luna_abbr':'./detector/labels/shorter.csv',
-          'luna_label':'./detector/labels/lunaqualified.csv',
+          'luna_label':'./deusetector/labels/lunaqualified.csv',
           'stage1_annos_path':['./detector/labels/label_job5.csv',
                 './detector/labels/label_job4_2.csv',
                 './detector/labels/label_job4_1.csv',
