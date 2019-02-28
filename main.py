@@ -24,6 +24,7 @@ skip_prep = config_submit['skip_preprocessing']
 skip_detect = config_submit['skip_detect']
 
 if not skip_prep:
+    print "The path: ",datapath
     testsplit = full_prep(datapath,prep_result_path,
                           n_worker = config_submit['n_worker_preprocessing'],
                           use_existing=config_submit['use_exsiting_preprocessing'])
